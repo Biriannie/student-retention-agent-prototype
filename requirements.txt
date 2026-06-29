@@ -1,0 +1,14 @@
+# Student Retention Agent dependencies
+# Python 3.10 or newer is recommended.
+#
+# These packages support the proof-of-concept described in the report:
+# - Streamlit provides the interactive app and demo interface.
+# - pandas and numpy support the simulated dataset and numeric features.
+# - scikit-learn trains and evaluates the Random Forest model.
+# - langgraph coordinates the multi-step agent workflow.
+
+streamlit>=1.36
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+langgraph>=0.2
